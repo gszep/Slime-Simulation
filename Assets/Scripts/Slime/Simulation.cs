@@ -130,8 +130,8 @@ public class Simulation : MonoBehaviour
 		}
 		else
 		{
-			ComputeHelper.Dispatch(compute, settings.width, settings.height, 1, kernelIndex : colourKernel);
-		//	ComputeHelper.CopyRenderTexture(trailMap, displayTexture);
+			ComputeHelper.Dispatch(compute, settings.width, settings.height, 1, kernelIndex: colourKernel);
+			//	ComputeHelper.CopyRenderTexture(trailMap, displayTexture);
 		}
 	}
 
